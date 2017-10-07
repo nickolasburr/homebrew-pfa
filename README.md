@@ -1,5 +1,7 @@
 # Personal Package Formulae
 
+Includes several Linux-specific utilities ported to Darwin.
+
 ## Installation
 
 ```
@@ -9,4 +11,5 @@ brew install <package>
 
 ## Packages
 
-+ [`mountpoint`](https://linux.die.net/man/1/mountpoint)
++ [`mountpoint`](http://man7.org/linux/man-pages/man1/mountpoint.1.html)
++ [`rename`](https://man7.org/linux/man-pages/man1/rename.1.html)
