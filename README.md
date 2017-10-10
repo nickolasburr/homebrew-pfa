@@ -17,3 +17,4 @@ brew install <package>
 + [git-stashd](https://github.com/nickolasburr/git-stashd) - Git autostashing daemon.
 + [mountpoint](http://man7.org/linux/man-pages/man1/mountpoint.1.html) - See if a directory is a mountpoint.
 + [rename](http://man7.org/linux/man-pages/man1/rename.1.html) - Rename files.
++ [sc-im](https://github.com/andmarti1424/sc-im) - An ncurses spreadsheet program for terminal.
