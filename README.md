@@ -1,6 +1,6 @@
 # Personal Formulae Archive
 
-Includes several Linux-specific utilities ported to Darwin.
+Handcrafted Homebrew formulae for a variety of packages. Includes several Linux utilities, ported to Darwin.
 
 ## Installation
 
@@ -11,8 +11,8 @@ brew install <package>
 
 ## Packages
 
-+ [`free`](https://github.com/dcantrell/darwin-free)
-+ [`git-follow`](https://github.com/nickolasburr/git-follow)
-+ [`git-stashd`](https://github.com/nickolasburr/git-stashd)
-+ [`mountpoint`](http://man7.org/linux/man-pages/man1/mountpoint.1.html)
-+ [`rename`](http://man7.org/linux/man-pages/man1/rename.1.html)
++ [darwin-free](https://github.com/dcantrell/darwin-free) - Command line memory status tool for MacOS X, similar to free(1) on Linux.
++ [git-follow](https://github.com/nickolasburr/git-follow) - Follow lifetime changes of a pathspec in Git.
++ [git-stashd](https://github.com/nickolasburr/git-stashd) - Git autostashing daemon.
++ [mountpoint](http://man7.org/linux/man-pages/man1/mountpoint.1.html) - See if a directory is a mountpoint.
++ [rename](http://man7.org/linux/man-pages/man1/rename.1.html) - Rename files.
