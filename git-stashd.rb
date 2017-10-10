@@ -7,9 +7,9 @@ class GitStashd < Formula
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-    sha256 "5d99f1e81a38ed4031b9ffbf8defce0790ea0e2bc9d44ade41f84d9dc06260ff" => :sierra
-    sha256 "5d99f1e81a38ed4031b9ffbf8defce0790ea0e2bc9d44ade41f84d9dc06260ff" => :el_capitan
-    sha256 "5d99f1e81a38ed4031b9ffbf8defce0790ea0e2bc9d44ade41f84d9dc06260ff" => :yosemite
+    sha256 "4fc11134b1cb971dbc18da4b46c7f0a7838247cc983531abdd27b8098d7c6158" => :sierra
+    sha256 "4fc11134b1cb971dbc18da4b46c7f0a7838247cc983531abdd27b8098d7c6158" => :el_capitan
+    sha256 "4fc11134b1cb971dbc18da4b46c7f0a7838247cc983531abdd27b8098d7c6158" => :yosemite
   end
 
   depends_on "openssl" => :required
