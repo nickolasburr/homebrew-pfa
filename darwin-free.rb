@@ -7,6 +7,7 @@ class DarwinFree < Formula
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
+    sha256 "91a11f0cf126482c32aac32b2eb848657f8508221b8fc74be26ea89af36e3f04" => :high_sierra
     sha256 "91a11f0cf126482c32aac32b2eb848657f8508221b8fc74be26ea89af36e3f04" => :sierra
     sha256 "91a11f0cf126482c32aac32b2eb848657f8508221b8fc74be26ea89af36e3f04" => :el_capitan
     sha256 "91a11f0cf126482c32aac32b2eb848657f8508221b8fc74be26ea89af36e3f04" => :yosemite
