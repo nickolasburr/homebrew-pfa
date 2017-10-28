@@ -1,4 +1,4 @@
-# Personal Formulae Archive
+# Package Formulae Archive
 
 Handcrafted Homebrew formulae for a variety of packages. Includes several Linux utilities, ported to Darwin.
 
