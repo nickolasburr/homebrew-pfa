@@ -15,6 +15,14 @@ class Trickle < Formula
 
   def install
     system "make LDLIBS_tritty="
+    system "gzip -c trickle.1 > trickle.1.gz"
+    system "gzip -c tritty.1 > tritty.1.gz"
+
+    bin.install "trickle"
+    bin.install "tritty"
+
+    man1.install "trickle.1.gz"
+    man1.install "tritty.1.gz"
   end
 
   test do
