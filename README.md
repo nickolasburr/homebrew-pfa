@@ -18,3 +18,4 @@ brew install <package>
 + [mountpoint](http://man7.org/linux/man-pages/man1/mountpoint.1.html) - See if a directory is a mountpoint.
 + [rename](http://man7.org/linux/man-pages/man1/rename.1.html) - Rename files.
 + [sc-im](https://github.com/andmarti1424/sc-im) - An ncurses spreadsheet program for terminal.
++ [trickle](https://github.com/sjmulder/trickle) - Slow pipe and terminal.
