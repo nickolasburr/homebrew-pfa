@@ -1,15 +1,16 @@
 class Keuka < Formula
   desc "SSL/TLS handshake analysis utility."
   homepage "https://github.com/nickolasburr/keuka"
-  url "https://github.com/nickolasburr/keuka/archive/1.0.0.tar.gz"
-  sha256 "d741fa6e37ac7c45f05d5b19fc8b4ac5b037f9293c8cee44f7c89cac7996539c"
+  url "https://github.com/nickolasburr/keuka/archive/1.0.1.tar.gz"
+  sha256 "1ecaaaf0465403fda0feff20c09949ff84d0d1dcdc729789d719e84094994cd6"
+  version "1.0.1"
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-    sha256 "0a66ad110201f3f586e38c3a3f5db63ccf2c9ac8f9942cd22cb0149b14466d75" => :high_sierra
-    sha256 "0a66ad110201f3f586e38c3a3f5db63ccf2c9ac8f9942cd22cb0149b14466d75" => :sierra
-    sha256 "0a66ad110201f3f586e38c3a3f5db63ccf2c9ac8f9942cd22cb0149b14466d75" => :el_capitan
-    sha256 "0a66ad110201f3f586e38c3a3f5db63ccf2c9ac8f9942cd22cb0149b14466d75" => :yosemite
+    sha256 "8290859640dcd30359ca8d5829061f2fd9de55b80c0d706a16fb2cad0f022747" => :high_sierra
+    sha256 "8290859640dcd30359ca8d5829061f2fd9de55b80c0d706a16fb2cad0f022747" => :sierra
+    sha256 "8290859640dcd30359ca8d5829061f2fd9de55b80c0d706a16fb2cad0f022747" => :el_capitan
+    sha256 "8290859640dcd30359ca8d5829061f2fd9de55b80c0d706a16fb2cad0f022747" => :yosemite
   end
 
   depends_on "openssl" => :required
