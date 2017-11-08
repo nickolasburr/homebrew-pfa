@@ -7,10 +7,10 @@ class Keuka < Formula
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-    sha256 "a1f9ff86311d9fdd7c9f8f4a229f03b00b205d0aac91766887f5a83007f83925" => :high_sierra
-    sha256 "a1f9ff86311d9fdd7c9f8f4a229f03b00b205d0aac91766887f5a83007f83925" => :sierra
-    sha256 "a1f9ff86311d9fdd7c9f8f4a229f03b00b205d0aac91766887f5a83007f83925" => :el_capitan
-    sha256 "a1f9ff86311d9fdd7c9f8f4a229f03b00b205d0aac91766887f5a83007f83925" => :yosemite
+    sha256 "53d33c2158720a39dedaed8e92811b8b2340046ade0658065d8d8d04e4b8382e" => :high_sierra
+    sha256 "53d33c2158720a39dedaed8e92811b8b2340046ade0658065d8d8d04e4b8382e" => :sierra
+    sha256 "53d33c2158720a39dedaed8e92811b8b2340046ade0658065d8d8d04e4b8382e" => :el_capitan
+    sha256 "53d33c2158720a39dedaed8e92811b8b2340046ade0658065d8d8d04e4b8382e" => :yosemite
   end
 
   depends_on "openssl" => :required
