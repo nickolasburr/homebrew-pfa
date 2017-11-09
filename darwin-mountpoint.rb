@@ -7,10 +7,10 @@ class DarwinMountpoint < Formula
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-    sha256 "6e7bda2ca5f2629acc7ac4c602347c76352de6064e684fa98a3d158e1dcd85b3" => :high_sierra
-    sha256 "6e7bda2ca5f2629acc7ac4c602347c76352de6064e684fa98a3d158e1dcd85b3" => :sierra
-    sha256 "6e7bda2ca5f2629acc7ac4c602347c76352de6064e684fa98a3d158e1dcd85b3" => :el_capitan
-    sha256 "6e7bda2ca5f2629acc7ac4c602347c76352de6064e684fa98a3d158e1dcd85b3" => :yosemite
+    sha256 "93e98f61feedb0d20ddfd8ed88952289224fc36888e45ad06426dab1e21f7076" => :high_sierra
+    sha256 "93e98f61feedb0d20ddfd8ed88952289224fc36888e45ad06426dab1e21f7076" => :sierra
+    sha256 "93e98f61feedb0d20ddfd8ed88952289224fc36888e45ad06426dab1e21f7076" => :el_capitan
+    sha256 "93e98f61feedb0d20ddfd8ed88952289224fc36888e45ad06426dab1e21f7076" => :yosemite
   end
 
   def install
