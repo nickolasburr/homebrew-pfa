@@ -1,5 +1,5 @@
-class Mountpoint < Formula
-  desc "See if a directory is a mountpoint."
+class DarwinMountpoint < Formula
+  desc "Linux mountpoint(1) ported to Darwin."
   homepage "http://download.savannah.gnu.org/releases/sysvinit/"
   url "http://download.savannah.gnu.org/releases/sysvinit/sysvinit-2.88dsf.tar.bz2"
   sha256 "60bbc8c1e1792056e23761d22960b30bb13eccc2cabff8c7310a01f4d5df1519"
