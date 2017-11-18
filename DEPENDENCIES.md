@@ -9,3 +9,4 @@
 | rename      | none                         |
 | sc-im       | ncurses >= 6.0               |
 | trickle     | none                         |
+| flood       | none                         |

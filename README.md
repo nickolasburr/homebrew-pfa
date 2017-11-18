@@ -19,3 +19,4 @@ brew install <package>
 + [keuka](https://github.com/nickolasburr/keuka) - SSL/TLS handshake analysis utility.
 + [sc-im](https://github.com/andmarti1424/sc-im) - An ncurses spreadsheet program for terminal.
 + [trickle](https://github.com/sjmulder/trickle) - Slow pipe and terminal.
++ [flood](https://github.com/sjmulder/flood) - Rapidly repeat a command.
