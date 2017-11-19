@@ -7,6 +7,6 @@
 | keuka       | openssl >=1.0.2              |
 | mountpoint  | none                         |
 | rename      | none                         |
-| sc-im       | ncurses >= 6.0               |
+| sc-im       | none                         |
 | trickle     | none                         |
 | flood       | none                         |
