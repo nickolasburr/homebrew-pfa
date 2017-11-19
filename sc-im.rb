@@ -20,7 +20,7 @@ class ScIm < Formula
 
     Dir.chdir("src")
     system "make && cp scim ../bin/scim"
-    system "gzip -c sc-im.1 > sc-im.1.gz"
+    system "gzip -c sc-im.1 > scim.1.gz"
 
     bin.install "scim"
     man1.install "scim.1.gz"
