@@ -20,3 +20,17 @@ brew install <package>
 + [sc-im](https://github.com/andmarti1424/sc-im) - An ncurses spreadsheet program for terminal.
 + [trickle](https://github.com/sjmulder/trickle) - Slow pipe and terminal.
 + [flood](https://github.com/sjmulder/flood) - Rapidly repeat a command.
+
+## Dependencies
+
+|      Package       |         Dependencies         |
+|:------------------:|:----------------------------:|
+| battery            | none                         |
+| darwin-free        | none                         |
+| darwin-mountpoint  | none                         |
+| git-follow         | perl >=5.8                   |
+| git-stashd         | cmake >=3.9, openssl >=1.0.2 |
+| keuka              | openssl >=1.0.2              |
+| sc-im              | none                         |
+| trickle            | none                         |
+| flood              | none                         |
