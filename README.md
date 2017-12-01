@@ -11,7 +11,7 @@ brew install <package>
 
 ## Packages
 
-+ [battery](https://github.com/nickolasburr/battery) - Analyze information about your MacBook (Pro) battery.
++ [battery](https://github.com/nickolasburr/battery) - macOS utility for analyzing battery properties.
 + [darwin-free](https://github.com/dcantrell/darwin-free) - Command line memory status tool for MacOS X, similar to [free(1)](https://linux.die.net/man/1/free) on Linux.
 + darwin-mountpoint - Linux [mountpoint(1)](https://linux.die.net/man/1/mountpoint), ported to Darwin.
 + extract - Extract various archive types.
