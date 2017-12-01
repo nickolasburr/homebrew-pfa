@@ -28,6 +28,7 @@ brew install <package>
 
 |      Package      |         Dependencies         |
 |-------------------|------------------------------|
+| alphanum          | none                         |
 | battery           | none                         |
 | darwin-free       | none                         |
 | darwin-mountpoint | none                         |
