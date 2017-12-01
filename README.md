@@ -18,6 +18,7 @@ brew install <package>
 + [git-follow](https://github.com/nickolasburr/git-follow) - Follow lifetime changes of a pathspec in Git.
 + [git-stashd](https://github.com/nickolasburr/git-stashd) - Git autostashing daemon.
 + [keuka](https://github.com/nickolasburr/keuka) - SSL/TLS handshake analysis utility.
++ prsg - Generate pseudo-random string of n characters.
 + [sc-im](https://github.com/andmarti1424/sc-im) - An ncurses spreadsheet program for terminal.
 + [trickle](https://github.com/sjmulder/trickle) - Slow pipe and terminal.
 + [flood](https://github.com/sjmulder/flood) - Rapidly repeat a command.
@@ -33,6 +34,7 @@ brew install <package>
 | git-follow         | perl >=5.8                   |
 | git-stashd         | cmake >=3.9, openssl >=1.0.2 |
 | keuka              | openssl >=1.0.2              |
+| prsg               | none                         |
 | sc-im              | none                         |
 | trickle            | none                         |
 | flood              | none                         |
