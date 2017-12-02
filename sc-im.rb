@@ -4,7 +4,6 @@ class ScIm < Formula
   url "https://github.com/andmarti1424/sc-im/archive/v0.6.0.tar.gz"
   sha256 "5da644d380ab3752de283b83cce18c3ba12b068d0762c44193c34367a0dcbc38"
   head "https://github.com/andmarti1424/sc-im.git", :branch => "freeze"
-  version "0.6.0"
   revision 3
 
   bottle do
