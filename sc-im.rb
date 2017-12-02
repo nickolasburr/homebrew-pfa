@@ -8,10 +8,9 @@ class ScIm < Formula
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-    sha256 "44648a2715d0a3709c66d2c2f520c9077f410fe33ccf89f66ae10503ae7ebe14" => :high_sierra
-    sha256 "44648a2715d0a3709c66d2c2f520c9077f410fe33ccf89f66ae10503ae7ebe14" => :sierra
-    sha256 "44648a2715d0a3709c66d2c2f520c9077f410fe33ccf89f66ae10503ae7ebe14" => :el_capitan
-    sha256 "44648a2715d0a3709c66d2c2f520c9077f410fe33ccf89f66ae10503ae7ebe14" => :yosemite
+
+    sha256 "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b" => :high_sierra
+    sha256 "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b" => :sierra
   end
 
   patch :DATA
