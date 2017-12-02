@@ -3,8 +3,9 @@ class ScIm < Formula
   homepage "https://github.com/andmarti1424/sc-im"
   url "https://github.com/andmarti1424/sc-im/archive/v0.6.0.tar.gz"
   sha256 "5da644d380ab3752de283b83cce18c3ba12b068d0762c44193c34367a0dcbc38"
+  head "https://github.com/andmarti1424/sc-im.git", :branch => "freeze"
   version "0.6.0"
-  revision 2
+  revision 3
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
@@ -17,18 +18,21 @@ class ScIm < Formula
   patch :DATA
 
   def install
-    system "mkdir bin"
-
-    Dir.chdir("src")
-    system "make && cp scim ../bin/scim"
-    system "gzip -c sc-im.1 > scim.1.gz"
-
-    bin.install "scim"
-    man1.install "scim.1.gz"
+    Dir.chdir("src") do
+      system "make", "prefix=#{prefix}"
+      system "make", "prefix=#{prefix}", "install"
+    end
   end
 
   test do
-    system "scim", "--help"
+    input = <<~EOS
+      let A1=1+1
+      getnum A1
+    EOS
+
+    cmd = %W(#{bin}/scim --nocurses --quit_afterload 2>/dev/null | tail -n 1)
+
+    assert_equal "nowide 2", pipe_output(cmd, input).lines.last.chomp
   end
 end
 __END__
