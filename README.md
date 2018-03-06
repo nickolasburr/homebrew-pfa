@@ -17,6 +17,7 @@ brew install <package>
 + darwin-mountpoint: Linux [mountpoint(1)](https://linux.die.net/man/1/mountpoint), ported to Darwin.
 + extract: Extract various archive types.
 + [flood](https://github.com/sjmulder/flood): Rapidly repeat a command.
++ [git-extend](https://github.com/nickolasburr/git-extend): Extend Git builtins with command wrappers.
 + [git-follow](https://github.com/nickolasburr/git-follow): Follow lifetime changes of a pathspec in Git.
 + [git-stashd](https://github.com/nickolasburr/git-stashd): Git autostashing daemon.
 + [keuka](https://github.com/nickolasburr/keuka): SSL/TLS handshake analysis utility.
@@ -34,6 +35,7 @@ brew install <package>
 | darwin-mountpoint | none                         |
 | extract           | none                         |
 | flood             | none                         |
+| git-extend        | none                         |
 | git-follow        | perl >=5.8                   |
 | git-stashd        | cmake >=3.9, openssl >=1.0.2 |
 | keuka             | openssl >=1.0.2              |
