@@ -5,13 +5,13 @@ class GitExtend < Formula
   sha256 "ddaf15b11d5331887fa708232c3c69ced2f07b98a2073428ad4f84badaa0f84a"
 
   def install
-    source = "#{bin}/git-extend"
+    script = "#{bin}/git-extend"
     target = "git"
 
     Dir.chdir("src")
-    ln_sf source target
+    ln_sf script target
 
-    bin.install source
+    bin.install script
     bin.install target
   end
 
