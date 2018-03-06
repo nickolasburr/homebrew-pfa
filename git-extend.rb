@@ -4,6 +4,8 @@ class GitExtend < Formula
   url "https://github.com/nickolasburr/git-extend/archive/1.0.0.tar.gz"
   sha256 "a5e6273679597f2d49e4089c2a80ddcce2efadc091dceab5229515e614bedf55"
 
+  conflicts_with "git", :because => "both create a symlink at #{HOMEBREW_PREFIX}/bin/git"
+
   def install
     Dir.chdir("bin")
 
