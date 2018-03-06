@@ -2,17 +2,16 @@ class GitExtend < Formula
   desc "Extend Git builtins with command wrappers."
   homepage "https://github.com/nickolasburr/git-extend"
   url "https://github.com/nickolasburr/git-extend/archive/1.0.0.tar.gz"
-  sha256 "ddaf15b11d5331887fa708232c3c69ced2f07b98a2073428ad4f84badaa0f84a"
+  sha256 "a5e6273679597f2d49e4089c2a80ddcce2efadc091dceab5229515e614bedf55"
 
   def install
-    script = "#{bin}/git-extend"
+    Dir.chdir("bin")
+
+    source = "git-extend"
     target = "git"
 
-    Dir.chdir("src")
-    ln_sf script target
-
-    bin.install script
-    bin.install target
+    bin.install source
+    bin.install_symlink source => target
   end
 
   test do
