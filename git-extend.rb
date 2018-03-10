@@ -2,34 +2,26 @@ class GitExtend < Formula
   desc "Extend Git builtins with command wrappers."
   homepage "https://github.com/nickolasburr/git-extend"
   url "https://github.com/nickolasburr/git-extend/archive/1.0.1.tar.gz"
-  sha256 "57c71929a00bc647c8c9df8ddcce4221ebbbfea2b3c79ad958779c8fb8c037db"
+  sha256 ""
 
-  option "with-alt-prefix", "Install git-extend with alternate prefix /usr/local/alt"
-  option "with-homebrew-git", "Configure git-extend to use Homebrew's version of Git. Implies --with-alt-prefix"
-
-  conflicts_with "git", :because => "both install symlinks at #{HOMEBREW_PREFIX}/bin/git" unless build.with? "alt-prefix"
+  unless Formula["git"].nil?
+    keg_only <<~EOS
+      you have Git installed with Homebrew, and git-extend installs
+      a symbolic link from git-extend -> git in HOMEBREW_PREFIX/bin.
+    EOS
+  end
 
   def install
-    Dir.chdir("bin")
-
     source = "git-extend"
     target = "git"
 
-    if build.with? "alt-prefix"
-      alt_dir = "#{HOMEBREW_PREFIX}/alt"
-      alt_bin = "#{alt_dir}/bin"
+    system("make", "build", "GITPREFIX=#{HOMEBREW_PREFIX}") if keg_only?
 
-      if build.with? "homebrew-git"
-        system "make", "build", "GITPREFIX=#{HOMEBREW_PREFIX}"
-      end
+    Dir.chdir("bin") do
+      ln_sf source, target
 
-      system "make", "install", "PREFIX=#{alt_dir}"
-
-      alt_bin.install source
-      alt_bin.install_symlink source => target
-    else
       bin.install source
-      bin.install_symlink source => target
+      bin.install target
     end
   end
 
