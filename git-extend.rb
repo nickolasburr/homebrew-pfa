@@ -1,15 +1,13 @@
 class GitExtend < Formula
-  desc "Extend Git builtins with command wrappers."
+  desc "Extend Git builtins with command wrappers"
   homepage "https://github.com/nickolasburr/git-extend"
-  url "https://github.com/nickolasburr/git-extend/archive/1.0.1.tar.gz"
-  sha256 ""
+  url "https://github.com/nickolasburr/git-extend/archive/1.0.2.tar.gz"
+  sha256 "046994da4cd72dc2ae95f7744e7f0efbc30877248d60b749875291116f1ae450"
 
-  unless Formula["git"].nil?
-    keg_only <<~EOS
-      you have Git installed with Homebrew, and git-extend installs
-      a symbolic link from git-extend -> git in HOMEBREW_PREFIX/bin.
-    EOS
-  end
+  keg_only <<~EOS
+    git-extend(1) installs a symbolic link from git-extend -> git,
+    which would cause conflicts with Homebrew installation of Git
+  EOS
 
   def install
     source = "git-extend"
