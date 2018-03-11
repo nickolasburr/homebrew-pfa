@@ -2,7 +2,8 @@ class Keuka < Formula
   desc "SSL/TLS handshake analysis utility"
   homepage "https://github.com/nickolasburr/keuka"
   url "https://github.com/nickolasburr/keuka/archive/1.0.3.tar.gz"
-  sha256 "776d1807d38167e0de95ba5d2bc8f4785c772c56d1dca7d1d0d5c5bf59aeb772"
+  sha256 "e6bdcd5c31128901849a2fe2d0a3404829ce44a0ada369b555da811d0b183446"
+  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
