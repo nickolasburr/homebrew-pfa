@@ -1,5 +1,5 @@
 class Keuka < Formula
-  desc "SSL/TLS handshake analysis utility."
+  desc "SSL/TLS handshake analysis utility"
   homepage "https://github.com/nickolasburr/keuka"
   url "https://github.com/nickolasburr/keuka/archive/1.0.2.tar.gz"
   sha256 "32deb4cd860765d4ea036689eaba36ca8b130e9fd5e34ffab15ce62e53bfa24d"
