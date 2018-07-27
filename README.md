@@ -2,6 +2,12 @@
 
 Handcrafted Homebrew formulae for a variety of packages.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Packages](#packages)
+- [Specifications](#specifications)
+
 ## Installation
 
 ```
@@ -26,7 +32,7 @@ brew install <package>
 + [sc-im](https://github.com/andmarti1424/sc-im): An ncurses spreadsheet program for terminal.
 + [trickle](https://github.com/sjmulder/trickle): Slow pipe and terminal.
 
-## Dependencies
+## Specifications
 
 |      Package      |         Dependencies         |
 |-------------------|------------------------------|
