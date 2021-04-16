@@ -2,7 +2,6 @@ class Trickle < Formula
   desc "Slow pipe and terminal"
   homepage "https://github.com/sjmulder/trickle"
   url "https://github.com/sjmulder/trickle/archive/1.0.tar.gz"
-  version "1.0"
   sha256 "b1029f75e43136cb0651ab61b23ec46e215cd4effd8294424961f7d70686ee59"
 
   bottle do

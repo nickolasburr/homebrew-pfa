@@ -13,7 +13,7 @@ class Keuka < Formula
     sha256 yosemite:    "7ba8ff2b66667d9318d26290e4bafa857d795f8a86ca46bd6ea6e8eacf708910"
   end
 
-  depends_on "openssl" => :required
+  depends_on "openssl"
 
   def install
     system "make"

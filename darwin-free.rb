@@ -2,7 +2,7 @@ class DarwinFree < Formula
   desc "Command-line memory status tool for MacOS X, similar to free(1) on Linux"
   homepage "https://github.com/dcantrell/darwin-free"
   url "https://github.com/dcantrell/darwin-free/archive/v0.5.1.tar.gz"
-  version "0.5.1"
+#  version "0.5.1"
   sha256 "3ecb8624898daec1d7968ba420f5c71b74b6306e1dc3038b9862fe64e9e6fcd0"
 
   bottle do
