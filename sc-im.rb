@@ -1,16 +1,16 @@
 class ScIm < Formula
-  desc "SC-IM - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal"
+  desc "- Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal"
   homepage "https://github.com/andmarti1424/sc-im"
   url "https://github.com/andmarti1424/sc-im/archive/v0.6.0.tar.gz"
   sha256 "5da644d380ab3752de283b83cce18c3ba12b068d0762c44193c34367a0dcbc38"
-  head "https://github.com/andmarti1424/sc-im.git", :branch => "freeze"
   revision 3
+  head "https://github.com/andmarti1424/sc-im.git", branch: "freeze"
 
   bottle do
     root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
 
-    sha256 "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b" => :high_sierra
-    sha256 "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b" => :sierra
+    sha256 high_sierra: "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b"
+    sha256 sierra:      "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b"
   end
 
   patch :DATA
@@ -28,7 +28,7 @@ class ScIm < Formula
       getnum A1
     EOS
 
-    cmd = %W(#{bin}/scim --nocurses --quit_afterload 2>/dev/null | tail -n 1)
+    cmd = %W[#{bin}/scim --nocurses --quit_afterload 2>/dev/null | tail -n 1]
 
     assert_equal "nowide 2", pipe_output(cmd, input).lines.last.chomp
   end
