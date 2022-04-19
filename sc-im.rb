@@ -6,13 +6,6 @@ class ScIm < Formula
   revision 3
   head "https://github.com/andmarti1424/sc-im.git", branch: "freeze"
 
-  bottle do
-    root_url "https://dl.bintray.com/nickolasburr/homebrew-bottles"
-
-    sha256 high_sierra: "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b"
-    sha256 sierra:      "28c429962a95214a9e94b98a9fc48cd276c67fd9e90958a38346aea7b963693b"
-  end
-
   patch :DATA
 
   def install
