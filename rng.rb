@@ -1,8 +1,8 @@
 class Rng < Formula
-  desc "Copy range of lines from file or stdin to stdout"
+  desc "Print range of lines to stdout"
   homepage "https://github.com/nickolasburr/rng"
-  url "https://github.com/nickolasburr/rng/archive/1.0.1.tar.gz"
-  sha256 "dbc3c50e4d82296c839532c2db081e58cfeb2246308e35b53319d72cdbae151b"
+  url "https://github.com/nickolasburr/rng/archive/1.0.3.tar.gz"
+  sha256 "25d2e98612d897b699dd80093c831fe0f7dc0aaeec4bcb82c09818ce8cb5b8d5"
 
   def install
     system "make"

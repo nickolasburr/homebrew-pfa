@@ -28,7 +28,7 @@ brew install <package>
 + [git-stashd](https://github.com/nickolasburr/git-stashd): Git autostashing daemon.
 + [keuka](https://github.com/nickolasburr/keuka): SSL/TLS handshake analysis utility.
 + [prsg](https://gist.githubusercontent.com/nickolasburr/a49073af159254f784c17673619b99c0/raw/15c1a5b7483495d23b38b81dea538dae7513839f/prsg): Generate pseudo-random string of _n_ characters.
-+ [rng](https://github.com/nickolasburr/rng): Copy range of lines from file or stdin to stdout.
++ [rng](https://github.com/nickolasburr/rng): Print range of lines to stdout.
 + [sc-im](https://github.com/andmarti1424/sc-im): An ncurses spreadsheet program for terminal.
 + [trickle](https://github.com/sjmulder/trickle): Slow pipe and terminal.
 
