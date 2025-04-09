@@ -1,8 +1,8 @@
 class Keuka < Formula
   desc "SSL/TLS handshake analysis utility"
   homepage "https://github.com/nickolasburr/keuka"
-  url "https://github.com/nickolasburr/keuka/archive/1.0.5.tar.gz"
-  sha256 "ae403045025b4bad41493d8d61424e0df59eb728b1ca7730c71e8833232722c0"
+  url "https://github.com/nickolasburr/keuka/archive/1.0.6.tar.gz"
+  sha256 "f1f6641c7f6662632ab21f950a6618122447d7eabdd166e424420e95bdad4204"
 
   depends_on "openssl"
 
