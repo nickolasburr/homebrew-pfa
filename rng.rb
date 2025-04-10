@@ -1,8 +1,8 @@
 class Rng < Formula
   desc "Print range of lines to stdout"
   homepage "https://github.com/nickolasburr/rng"
-  url "https://github.com/nickolasburr/rng/archive/1.0.3.tar.gz"
-  sha256 "25d2e98612d897b699dd80093c831fe0f7dc0aaeec4bcb82c09818ce8cb5b8d5"
+  url "https://github.com/nickolasburr/rng/archive/1.0.4.tar.gz"
+  sha256 "d21dfccdc106e09341b5ccd37b90d197c483c1da11464e02daaed44abb708c39"
 
   def install
     system "make"
